@@ -29,7 +29,7 @@ jobs:
       - name: Fetch Tests from Professor Repository
         run: |
           echo "Clonando os testes do repositório do professor"
-          git remote add joseaugustogoncalves git@github.com:joseaugustogoncalves/Java-OOP-Pessoa2-Template.git
+          git remote add joseaugustogoncalves https://github.com/joseaugustogoncalves/Pessoa-template.git
           git fetch joseaugustogoncalves solucao-final
           git checkout joseaugustogoncalves/solucao-final -- src/test
 
